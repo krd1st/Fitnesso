@@ -522,18 +522,18 @@ img {
   color: #ff0000;
 }
 
-.first__background .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 560px;
-}
-
 .first__background {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   background-image: url(../../images/backgrounds/bg-desk-1-1x.jpg);
+  z-index: 1;
+}
+.first__background .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 560px;
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .first__background {
@@ -603,15 +603,15 @@ img {
   margin-right: 17px;
 }
 
-.second__background .container {
-  height: 764px;
-}
-
 .second__background {
   max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
   background-image: url(../../images/backgrounds/bg-desk-2-1x.jpg);
+  z-index: 1;
+}
+.second__background .container {
+  height: 764px;
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .second__background {
