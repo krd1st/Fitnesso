@@ -1,0 +1,42 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  // background-color: #ffffff;
+  // background-color: lightblue;
+  background-image: linear-gradient(
+    rgba(39, 10, 202, 0.6),
+    rgba(214, 16, 16, 0.6)
+  );
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.pointer {
+  cursor: pointer;
+}

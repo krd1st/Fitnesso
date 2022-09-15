@@ -1,0 +1,55 @@
+.benefits {
+  & .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 274px;
+    background: #e5e5e5;
+  }
+  &__left {
+    width: 523px;
+  }
+  &__title {
+    max-width: 523px;
+    font-family: "Roboto";
+    font-size: 60px;
+    line-height: 1.17;
+    color: #081158;
+    margin-bottom: 30px;
+  }
+  &__text {
+    width: 486px;
+    font-family: "Red Hat Display";
+    font-size: 20px;
+    line-height: 1.8;
+    color: #081158;
+    margin-bottom: 25px;
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 62px;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #081158;
+    border-radius: 6px;
+    border: transparent;
+    transition-property: background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      background-color: #0c197c;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+  }
+  &__button-icon {
+    margin-right: 17px;
+  }
+}

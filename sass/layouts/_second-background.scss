@@ -1,0 +1,13 @@
+.second__background .container {
+  height: 764px;
+}
+
+.second__background {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(../../images/backgrounds/bg-desk-2-1x.jpg);
+  @include retina {
+    background-image: url(../../images/backgrounds/bg-desk-2-2x.jpg);
+  }
+}

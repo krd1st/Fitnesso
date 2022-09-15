@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Red+Hat+Display&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a class="header-logo__link link" href="">
+          <img
+            src="./images/logo/header-logo.png"
+            alt="Logo"
+            width="94"
+            height="20"
+          />
+        </a>
+        <nav class="header-navigation">
+          <ul class="header-navigation__list list">
+            <li class="header-navigation__item">
+              <a class="header-navigation__link link" href="">About</a>
+            </li>
+            <li class="header-navigation__item">
+              <a class="header-navigation__link link" href="">Free Workout</a>
+            </li>
+            <li class="header-navigation__item">
+              <a class="header-navigation__link link" href="">Shop</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__button pointer" type="button">
+          <svg
+            class="header__button-icon"
+            width="12"
+            height="16"
+            style="outline: solid 1px white"
+          >
+            <use href="./images/icons.svg#button__icon"></use>
+          </svg>
+          BOOK A CALL
+        </button>
+        <a class="header-cart__link link" href="">
+          <svg
+            class="header-cart__icon"
+            width="17"
+            height="17"
+            style="outline: solid 1px black"
+          >
+            <use href="./images/icons.svg#icon-shopping-cart"></use>
+          </svg>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-left">
+            <h2 class="hero-left__title">Sandra Lyons</h2>
+            <div class="hero-left__image">
+              <picture>
+                <source
+                  srcset="
+                    ./images/hero/hero-desk-1x.jpg 1x,
+                    ./images/hero/hero-desk-2x.jpg 2x
+                  "
+                />
+                <img
+                  class="hero__img"
+                  src="./images/hero/hero-desk-2x.jpg"
+                  alt="Sandra Lyons"
+                  width="659"
+                  height="700"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="hero-right">
+            <p class="hero-right__subtitle">HI I'M SANDRA LYONS</p>
+            <h1 class="hero-right__title">
+              Your go to online fitness trainer and nutritionist.
+            </h1>
+            <p class="hero-right__text">
+              After getting a bachelors in nutrition and fitness training I
+              started working with people all around and changing their lives
+              forever.
+            </p>
+            <button class="hero-right__button pointer" type="button">
+              <svg
+                class="hero-right__button-icon"
+                width="15"
+                height="19"
+                style="outline: solid 1px white"
+              >
+                <use href="./images/icons.svg#button__icon"></use>
+              </svg>
+              Online coaching
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="clients">
+        <div class="container">
+          <ul class="clients__list list">
+            <li class="clients__item">
+              <p class="clients__text-big">1900+</p>
+              <p class="clients__text-small">happy clients</p>
+            </li>
+            <li class="clients__item">
+              <p class="clients__text-big">5 years</p>
+              <p class="clients__text-small">of experience</p>
+            </li>
+            <li class="clients__item">
+              <p class="clients__text-big">156k</p>
+              <p class="clients__text-small">following me</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <h2 class="about__title">
+            The journey to a healthier body starts right now
+          </h2>
+          <button class="about__button pointer" type="button">
+            <svg
+              class="about__button-icon"
+              width="14"
+              height="21"
+              style="outline: solid 1px white"
+            >
+              <use href="./images/icons.svg#button__icon"></use>
+            </svg>
+            Online coaching
+          </button>
+          <ul class="about__list-one list">
+            <li class="about__item">
+              <div class="about__wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/about/about-desk-1-1x.jpg 1x,
+                      ./images/about/about-desk-1-2x.jpg 2x
+                    "
+                  />
+                </picture>
+                <img
+                  src="./images/about/about-desk-1-2x.jpg"
+                  alt="sport__one"
+                  class="about__img"
+                  width="300"
+                  height="300"
+                />
+                <h3 class="about__subtitle">
+                  Learn to live a healthy life with fitness
+                </h3>
+                <p class="about__text">
+                  Changing your lifestyle with a fast paced life may seem hard
+                  or impossible, but with small steps each week you can achieve
+                  your dream physique and live a healthier life.
+                </p>
+              </div>
+            </li>
+            <li class="about__item">
+              <div class="about__wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/about/about-desk-2-1x.jpg 1x,
+                      ./images/about/about-desk-2-2x.jpg 2x
+                    "
+                  />
+                </picture>
+                <img
+                  src="./images/about/about-desk-2-2x.jpg"
+                  alt="sport__two"
+                  class="about__img"
+                  width="300"
+                  height="300"
+                />
+                <h3 class="about__subtitle">
+                  Understand how to do excercises properly
+                </h3>
+                <p class="about__text">
+                  Just going to the gym and lifting weights won't make you
+                  healthy, after all it may even cause some harm to your body.
+                  We teach proper exercise techniques
+                </p>
+              </div>
+            </li>
+          </ul>
+          <ul class="about__list-two list">
+            <li class="about__item">
+              <div class="about__wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/about/about-desk-3-1x.jpg 1x,
+                      ./images/about/about-desk-3-2x.jpg 2x
+                    "
+                  />
+                </picture>
+                <img
+                  src="./images/about/about-desk-3-2x.jpg"
+                  alt="sport__three"
+                  class="about__img"
+                  width="300"
+                  height="300"
+                />
+                <h3 class="about__subtitle">Track your progress weekly</h3>
+                <p class="about__text">
+                  We're tracking your goal weight with body fat measures, weight
+                  and general feeling. You may have the same body weight but
+                  feel 10x better.
+                </p>
+              </div>
+            </li>
+            <li class="about__item">
+              <div class="about__wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/about/about-desk-4-1x.jpg 1x,
+                      ./images/about/about-desk-4-2x.jpg 2x
+                    "
+                  />
+                </picture>
+                <img
+                  src="./images/about/about-desk-4-2x.jpg"
+                  alt="sport__four"
+                  class="about__img"
+                  width="300"
+                  height="300"
+                />
+                <h3 class="about__subtitle">
+                  Follow a specific plan made just for you
+                </h3>
+                <p class="about__text">
+                  Everyone is different, and we know it. That's why all of our
+                  clients get a programme specific just for their lifestyle and
+                  body tipe. This give the best possible results.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="free-plans">
+        <div class="container section">
+          <h2 class="free-plans__title">
+            Free home workouts and fitness plans
+          </h2>
+          <p class="free-plans__after-title">
+            With free online classes people who don’t have the time or money to
+            afford a personal coach can make change their lives forever.
+          </p>
+          <button class="free-plans__button pointer" type="button">
+            <svg
+              class="free-plans__button-icon"
+              width="16"
+              height="26"
+              style="outline: solid 1px white"
+            >
+              <use href="./images/icons.svg#button__icon"></use>
+            </svg>
+            View all
+          </button>
+          <ul class="free-plans__list list">
+            <li class="free-plans__item">
+              <div class="free-plans__wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/free-plans/plans-desk-1-1x.jpg 1x,
+                      ./images/free-plans/plans-desk-1-2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/free-plans/plans-desk-1-2x.jpg"
+                    alt="Free Plan One"
+                    width="423"
+                    height="400"
+                  />
+                </picture>
+                <div class="free-plans__text-wrap">
+                  <p class="free-plans__pre-text">30 Minutes</p>
+                  <p class="free-plans__text">The Perfect Outdoor Workout</p>
+                  <a href="" class="free-plans__link link">Train now</a>
+                  <p class="free-plans__free">Free</p>
+                </div>
+              </div>
+            </li>
+            <li class="free-plans__item">
+              <div class="free-plans__wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/free-plans/plans-desk-2-1x.jpg 1x,
+                      ./images/free-plans/plans-desk-2-2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/free-plans/plans-desk-2-2x.jpg"
+                    alt="Free Plan Two"
+                    width="423"
+                    height="400"
+                  />
+                </picture>
+                <div class="free-plans__text-wrap">
+                  <p class="free-plans__pre-text">1 Hour</p>
+                  <p class="free-plans__text">Back Day</p>
+                  <a href="" class="free-plans__link link">Train now</a>
+                  <p class="free-plans__free">Free</p>
+                </div>
+              </div>
+            </li>
+            <li class="free-plans__item">
+              <div class="free-plans__wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/free-plans/plans-desk-3-1x.jpg 1x,
+                      ./images/free-plans/plans-desk-3-2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/free-plans/plans-desk-3-2x.jpg"
+                    alt="Free Plan Three"
+                    width="423"
+                    height="400"
+                  />
+                </picture>
+                <div class="free-plans__text-wrap">
+                  <p class="free-plans__pre-text">40 Minutes</p>
+                  <p class="free-plans__text">The Ultimate Abs Tabata</p>
+                  <a href="" class="free-plans__link link">Train now</a>
+                  <p class="free-plans__free">Free</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="premium-plans premium-plans__background">
+        <div class="container section">
+          <h2 class="premium-plans__title">
+            Premium home workouts and fitness plans
+          </h2>
+          <p class="premium-plans__after-title">
+            I’ve created these premium fitness classes for everyone starting
+            from beginner to advanced level with an in depth FAQ.
+          </p>
+          <ul class="premium-plans__list list">
+            <li class="premium-plans__item">
+              <div class="premium-plans__wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/premium-plans/premium-plans-desk-1-1x.jpg 1x,
+                      ./images/premium-plans/premium-plans-desk-1-2x.jpg 2x
+                    "
+                  />
+                  <img src="./images/free-plans/premium-plans-desk-1-2x.jpg"
+                  alpremiumremium Plan One" width="423" height="400" />
+                </picture>
+                <div class="premium-plans__text-wrap">
+                  <p class="premium-plans__pre-text">3 days a week</p>
+                  <p class="premium-plans__text">Home Burn</p>
+                  <a href="" class="premium-plans__link link">View</a>
+                  <p class="premium-plans__money">$ 19.99 USD</p>
+                </div>
+              </div>
+            </li>
+            <li class="premium-plans__item">
+              <div class="premium-plans__wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/premium-plans/premium-plans-desk-2-1x.jpg 1x,
+                      ./images/premium-plans/premium-plans-desk-2-2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/premium-plans/premium-plans-desk-2-2x.jpg"
+                    alt="Premium Plan Two"
+                    width="423"
+                    height="400"
+                  />
+                </picture>
+                <div class="premium-plans__text-wrap">
+                  <p class="premium-plans__pre-text">30 days</p>
+                  <p class="premium-plans__text">Shedded Meal Plan</p>
+                  <a href="" class="premium-plans__link link">View</a>
+                  <p class="premium-plans__money">$ 29.99 USD</p>
+                </div>
+              </div>
+            </li>
+            <li class="premium-plans__item">
+              <div class="premium-plans__wrap">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/premium-plans/premium-plans-desk-3-1x.jpg 1x,
+                      ./images/premium-plans/premium-plans-desk-3-2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/free-plans/premium-plans-desk-3-2x.jpg"
+                    alt="Premium Plan Three"
+                    width="423"
+                    height="400"
+                  />
+                </picture>
+                <div class="premium-plans__text-wrap">
+                  <p class="premium-plans__pre-text">7 Days a Week</p>
+                  <p class="premium-plans__text">High Intensity Training</p>
+                  <a href="" class="premium-plans__link link">View</a>
+                  <p class="premium-plans__money">$ 89.99 USD</p>
+                  <p class="premium-plans__more-money">$ 129.99 USD</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="first__background">
+        <div class="container">
+          <p class="first__background-text">SWEAT. GAIN. DO.</p>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="container section">
+          <div class="benefits__left">
+            <p class="benefits__title">
+              Who can benefit from a fully custom online fitness plan and
+              nutrition?
+            </p>
+            <p class="benefits__text">
+              Literally everyone. I’m currently helping people from 12 to 60+
+              years old. Everyone is getting an adjusted program and a meal
+              plan.
+            </p>
+            <button class="benefits__button pointer" type="button">
+              <svg
+                class="benefits__button-icon"
+                width="17"
+                height="21"
+                style="outline: solid 1px white"
+              >
+                <use href="./images/icons.svg#button__icon"></use>
+              </svg>
+              BOOK A CALL
+            </button>
+          </div>
+          <div class="benefits__image">
+            <picture>
+              <source
+                srcset="
+                  ./images/benefits/benefits-desk-1x.jpg 1x,
+                  ./images/benefits/benefits-desk-2x.jpg 2x
+                "
+              />
+              <img
+                src="./images/benefits/benefits-desk-2x.jpg"
+                alt="Woman"
+                width="507"
+                height="500"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="second__background">
+        <div class="container"></div>
+      </section>
+      <section class="tips">
+        <div class="container section">
+          <h2 class="tips__title">Read our tips and tricks</h2>
+          <p class="tips__text">
+            We post a lot of free content around health fitness and general
+            wellbeing. Make sure to check all of our posts down below.
+          </p>
+          <button class="tips__button pointer" type="button">
+            <svg
+              class="tips__button-icon"
+              width="17"
+              height="26"
+              style="outline: solid 1px white"
+            >
+              <use href="./images/icons.svg#button__icon"></use>
+            </svg>
+            view all posts
+          </button>
+          <ul class="tips__list list">
+            <li class="tips__item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/tips/tips-desk-1-1x.jpg 1x,
+                    ./images/tips/tips-desk-1-2x.jpg 2x
+                  "
+                />
+                <img
+                  class="tips__image"
+                  src="./images/tips/tips-desk-1-2x.jpg"
+                  alt="Sport"
+                  width="423"
+                  height="600"
+                />
+              </picture>
+            </li>
+            <li class="tips__item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/tips/tips-desk-2-1x.jpg 1x,
+                    ./images/tips/tips-desk-2-2x.jpg 2x
+                  "
+                />
+                <img
+                  class="tips__image"
+                  src="./images/tips/tips-desk-2-2x.jpg"
+                  alt="Sport"
+                  width="423"
+                  height="600"
+                />
+              </picture>
+            </li>
+            <li class="tips__item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/tips/tips-desk-3-1x.jpg 1x,
+                    ./images/tips/tips-desk-3-2x.jpg 2x
+                  "
+                />
+                <img
+                  class="tips__image"
+                  src="./images/tips/tips-desk-3-2x.jpg"
+                  alt="Sport"
+                  width="423"
+                  height="600"
+                />
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="social">
+        <div class="container section">
+          <div class="social-image__wrap-up">
+            <ul class="social-image__list-up list">
+              <li class="social-image__item-up">
+                <img
+                  src="./images/social/social-desk-1-2x.jpg"
+                  alt="Sport"
+                  width="400"
+                  height="400"
+                />
+              </li>
+              <li class="social-image__item-up">
+                <img
+                  src="./images/social/social-desk-2-2x.jpg"
+                  alt="Sport"
+                  width="400"
+                  height="400"
+                />
+              </li>
+              <li class="social-image__item-up">
+                <img
+                  src="./images/social/social-desk-3-2x.jpg"
+                  alt="Sport"
+                  width="400"
+                  height="400"
+                />
+              </li>
+            </ul>
+            <ul class="social-image__list-down list">
+              <li class="social-image__item-down">
+                <img
+                  src="./images/social/social-desk-3-2x.jpg"
+                  alt="Sport"
+                  width="400"
+                  h400
+                />
+              </li>
+              <li class="social-image__item-down">
+                <img
+                  src="./images/social/social-desk-2-2x.jpg"
+                  alt="Sport"
+                  width="400"
+                  height="400"
+                />
+              </li>
+              <li class="social-image__item-down">
+                <img
+                  src="./images/social/social-desk-1-2x.jpg"
+                  alt="Sport"
+                  width="400"
+                  height="400"
+                />
+              </li>
+            </ul>
+          </div>
+          <div class="social-wrap"></div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="container">
+          <div class="footer__wrap">
+            <a class="footer-logo__link link" href="">
+              <img
+                src="./images/logo/footer-logo.png"
+                alt="Logo"
+                width="141"
+                height="30"
+              />
+            </a>
+            <div class="footer-left">
+              <p class="footer-left__text">Contact</p>
+              <a
+                href="mailto:contact@fitnesso.com"
+                class="footer-left__mail link"
+              >
+                contact@fitnesso.com</a
+              >
+              <p class="footer-left__text">Licencing</p>
+              <ul class="footer-left__list list">
+                <li class="footer-left__item">
+                  <a href="" class="footer-left__link link"
+                    >Copyright Flow Ninja</a
+                  >
+                </li>
+                <li class="footer-left__item">
+                  <a href="" class="footer-left__link link"
+                    >Powered By Webflow</a
+                  >
+                </li>
+                <li class="footer-left__item">
+                  <a href="" class="footer-left__link link">Licencing</a>
+                </li>
+                <li class="footer-left__item">
+                  <a href="" class="footer-left__link link">Support</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-right">
+              <p class="footer-right__text">Explore</p>
+              <ul class="footer-right__list list">
+                <li class="footer-right__item">
+                  <a href="" class="footer-right__link link">Premium Courses</a>
+                </li>
+                <li class="footer-right__item">
+                  <a href="" class="footer-right__link link">Free Courses</a>
+                </li>
+                <li class="footer-right__item">
+                  <a href="" class="footer-right__link link">Blog</a>
+                </li>
+                <li class="footer-right__item">
+                  <a href="" class="footer-right__link link">About</a>
+                </li>
+                <li class="footer-right__item">
+                  <a href="" class="footer-right__link link">Contact</a>
+                </li>
+                <li class="footer-right__item">
+                  <a href="" class="footer-right__link link">Style Guide</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul class="footer-icons__list list">
+            <li class="footer-icons__item">
+              <a href="">
+                <div class="footer-icons__background">
+                  <svg
+                    class="footer-icon"
+                    width="13"
+                    height="13"
+                    style="outline: 1px solid black"
+                  >
+                    <use href="./images/icons.svg#footer-icon-1"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
+            <li class="footer-icons__item">
+              <a href="">
+                <div class="footer-icons__background">
+                  <svg
+                    class="footer-icon"
+                    width="31"
+                    height="13"
+                    style="outline: 1px solid black"
+                  >
+                    <use href="./images/icons.svg#footer-icon-2"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
+            <li class="footer-icons__item">
+              <div class="footer-icons__background">
+                <a href="">
+                  <div class="footer-icons__background">
+                    <svg
+                      class="footer-icon"
+                      width="31"
+                      height="10"
+                      style="outline: 1px solid black"
+                    >
+                      <use href="./images/icons.svg#footer-icon-3"></use>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="footer-icons__item">
+              <div class="footer-icons__background">
+                <a href="">
+                  <div class="footer-icons__background">
+                    <svg
+                      class="footer-icon"
+                      width="20"
+                      height="13"
+                      style="outline: 1px solid black"
+                    >
+                      <use href="./images/icons.svg#footer-icon-4"></use>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="footer-icons__item">
+              <div class="footer-icons__background">
+                <a href="">
+                  <div class="footer-icons__background">
+                    <svg
+                      class="footer-icon"
+                      width="45"
+                      height="15.88"
+                      style="outline: 1px solid black"
+                    >
+                      <use href="./images/icons.svg#footer-icon-5"></use>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

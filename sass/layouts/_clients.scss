@@ -1,0 +1,34 @@
+.clients {
+  width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #081158;
+  & .container {
+    height: 237px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    gap: 354px;
+  }
+  &__text-big {
+    width: fit-content;
+    font-size: 24px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #dfdfdf;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  &__text-small {
+    width: fit-content;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #dfdfdf;
+  }
+}

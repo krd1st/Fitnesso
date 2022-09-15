@@ -1,0 +1,116 @@
+.premium-plans {
+  &__background {
+    width: 1440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../../images/premium-plans/premium-plans-bg-1x.jpg);
+    @include retina {
+      background-image: url(../../images/premium-plans/premium-plans-bg-2x.jpg);
+    }
+  }
+  &__title {
+    width: 963px;
+    font-family: "Roboto";
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 1.15;
+    color: #ffffff;
+    margin-bottom: 31px;
+  }
+  &__after-title {
+    width: 590px;
+    font-family: "Red Hat Display";
+    font-size: 20px;
+    line-height: 1.8;
+    color: #ffffff;
+    margin-bottom: 187px;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 62px;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #081158;
+    border-radius: 6px;
+    margin-bottom: 100px;
+  }
+  &__button-icon {
+    margin-right: 33px;
+  }
+  &__list {
+    display: flex;
+    gap: 49.5px;
+  }
+  &__wrap {
+    width: 423px;
+  }
+  &__text-wrap {
+    background-color: #ffffff;
+    padding: 30px;
+    position: relative;
+  }
+  &__pre-text {
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #081158;
+    margin-bottom: 14px;
+  }
+  &__money {
+    font-family: "Permanent Marker";
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    color: #ec8675;
+    position: absolute;
+    top: 27px;
+    right: 30px;
+  }
+  &__more-money {
+    font-family: "Permanent Marker";
+    font-size: 11px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    color: #afafaf;
+    position: absolute;
+    top: 41px;
+    right: 31px;
+  }
+  &__text {
+    width: fit-content;
+    font-family: "Roboto";
+    font-size: 24px;
+    line-height: 1.15;
+    letter-spacing: 0.5px;
+    color: #081158;
+    margin-bottom: 14px;
+  }
+  &__link {
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    color: #081158;
+    padding: 5px;
+    margin-left: 13px;
+    transition-property: color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: #ff0000;
+    }
+  }
+}

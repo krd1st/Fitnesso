@@ -1,0 +1,35 @@
+.social {
+  & .container {
+    height: 1200px;
+    position: relative;
+    background: #e5e5e5;
+  }
+  &-wrap {
+    position: absolute;
+    width: 1440px;
+    height: 275px;
+    top: 462px;
+    left: 0;
+    background-color: #ec8675;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  &-image__list-up,
+  &-image__list-down {
+    display: flex;
+    gap: 100px;
+  }
+
+  &-image__list-up {
+    margin-bottom: 100px;
+  }
+
+  &__image {
+    width: 400px;
+    height: 400px;
+    outline: 1px solid black;
+  }
+}
