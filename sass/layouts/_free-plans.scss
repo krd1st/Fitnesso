@@ -21,7 +21,6 @@
   }
   &__button {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 200px;
     height: 62px;
@@ -47,6 +46,7 @@
     }
   }
   &__button-icon {
+    margin-left: 23px;
     margin-right: 33px;
   }
   &__list {

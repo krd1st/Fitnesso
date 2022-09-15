@@ -1,6 +1,5 @@
 body {
   font-family: "Red Hat Display", sans-serif;
-  background-color: lightblue;
 }
 
 .link {
@@ -47,7 +46,7 @@ img {
 .header .container {
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: #eef0f4;
 }
 .header-logo__link {
   margin-right: 773px;
@@ -325,7 +324,6 @@ img {
 }
 .free-plans__button {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 200px;
   height: 62px;
@@ -350,6 +348,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .free-plans__button-icon {
+  margin-left: 23px;
   margin-right: 33px;
 }
 .free-plans__list {
