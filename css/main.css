@@ -1,6 +1,6 @@
 body {
   font-family: "Red Hat Display", sans-serif;
-  background-image: linear-gradient(rgba(39, 10, 202, 0.6), rgba(214, 16, 16, 0.6));
+  background-color: lightblue;
 }
 
 .link {
@@ -527,7 +527,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-image: url(../../images/backgrounds/bg-desk-1-1x.jpg);
-  z-index: 1;
 }
 .first__background .container {
   display: flex;
@@ -608,7 +607,6 @@ img {
   margin-right: auto;
   margin-left: auto;
   background-image: url(../../images/backgrounds/bg-desk-2-1x.jpg);
-  z-index: 1;
 }
 .second__background .container {
   height: 764px;
