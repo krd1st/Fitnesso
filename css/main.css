@@ -114,6 +114,12 @@ img {
   padding-right: 36px;
 }
 
+.image__container {
+  width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .hero .container {
   display: flex;
   flex-wrap: wrap;
@@ -406,7 +412,7 @@ img {
 }
 
 .premium-plans__background {
-  width: 1440px;
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -522,17 +528,18 @@ img {
   color: #ff0000;
 }
 
-.first__background {
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(../../images/backgrounds/bg-desk-1-1x.jpg);
-}
 .first__background .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 560px;
+}
+
+.first__background {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../../images/backgrounds/bg-desk-1-1x.jpg);
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .first__background {
@@ -600,21 +607,6 @@ img {
 }
 .benefits__button-icon {
   margin-right: 17px;
-}
-
-.second__background {
-  max-width: 1440px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: url(../../images/backgrounds/bg-desk-2-1x.jpg);
-}
-.second__background .container {
-  height: 764px;
-}
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .second__background {
-    background-image: url(../../images/backgrounds/bg-desk-2-2x.jpg);
-  }
 }
 
 .tips .container {
