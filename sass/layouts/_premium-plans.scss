@@ -1,16 +1,17 @@
-.premium-plans {
-  &__background {
-    width: 1440px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(../../images/premium-plans/premium-plans-bg-1x.jpg);
-    @include retina {
-      background-image: url(../../images/premium-plans/premium-plans-bg-2x.jpg);
-    }
+.premium-plans__background {
+  width: 1440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../../images/premium-plans/premium-plans-bg-1x.jpg);
+  @include retina {
+    background-image: url(../../images/premium-plans/premium-plans-bg-2x.jpg);
   }
+}
+
+.premium-plans {
   &__title {
     width: 963px;
     font-family: "Roboto";
