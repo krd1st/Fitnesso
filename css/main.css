@@ -42,11 +42,11 @@ img {
 
 .header {
   height: 60px;
+  background-color: #eef0f4;
 }
 .header .container {
   display: flex;
   align-items: center;
-  background-color: #eef0f4;
 }
 .header-logo__link {
   margin-right: 773px;
@@ -120,11 +120,13 @@ img {
   margin-left: auto;
 }
 
+.hero {
+  background-color: #e5e5e5;
+}
 .hero .container {
   display: flex;
   flex-wrap: wrap;
   gap: 80px;
-  background-color: #e5e5e5;
   padding-top: 75px;
   padding-bottom: 150px;
 }
@@ -193,10 +195,9 @@ img {
 }
 
 .clients {
-  width: 1440px;
+  background-color: #081158;
   margin-right: auto;
   margin-left: auto;
-  background-color: #081158;
 }
 .clients .container {
   height: 237px;
@@ -227,10 +228,12 @@ img {
   color: #dfdfdf;
 }
 
+.about {
+  background-color: #eef0f4;
+}
 .about .container {
   padding-top: 75px;
   padding-bottom: 150px;
-  background-color: #eef0f4;
 }
 .about__title {
   width: 703px;
@@ -308,8 +311,8 @@ img {
   color: #081158;
 }
 
-.free-plans .container {
-  background: #e5e5e5;
+.free-plans {
+  background-color: #e5e5e5;
 }
 .free-plans__title {
   width: 787px;
@@ -412,7 +415,6 @@ img {
 }
 
 .premium-plans__background {
-  max-width: 1440px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -528,25 +530,30 @@ img {
   color: #ff0000;
 }
 
-.first__background .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 560px;
+.background .container {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .background .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+  }
 }
 
-.first__background {
-  max-width: 1440px;
+.background {
+  width: 1440px;
   margin-left: auto;
   margin-right: auto;
   background-image: url(../../images/backgrounds/bg-desk-1-1x.jpg);
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .first__background {
+  .background {
     background-image: url(../../images/backgrounds/bg-desk-1-2x.jpg);
   }
 }
-.first__background-text {
+.background-text {
   width: fit-content;
   font-family: "Permanent Marker";
   font-size: 64px;
@@ -556,11 +563,13 @@ img {
   color: #ffffff;
 }
 
+.benefits {
+  background-color: #e5e5e5;
+}
 .benefits .container {
   display: flex;
   flex-wrap: wrap;
   gap: 274px;
-  background: #e5e5e5;
 }
 .benefits__left {
   width: 523px;
@@ -609,7 +618,16 @@ img {
   margin-right: 17px;
 }
 
-.tips .container {
+.image {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .image {
+    display: block;
+  }
+}
+
+.tips {
   background-color: #eef0f4;
 }
 .tips__title {
@@ -666,10 +684,12 @@ img {
   gap: 50px;
 }
 
+.social {
+  background-color: #e5e5e5;
+}
 .social .container {
   height: 1200px;
   position: relative;
-  background: #e5e5e5;
 }
 .social-wrap {
   position: absolute;
@@ -696,9 +716,11 @@ img {
   outline: 1px solid black;
 }
 
+.footer {
+  background-color: #081158;
+}
 .footer .container {
   min-height: 379px;
-  background: #081158;
   padding-top: 100px;
   padding-bottom: 100px;
 }

@@ -1,9 +1,9 @@
 .hero {
+  background-color: #e5e5e5;
   & .container {
     display: flex;
     flex-wrap: wrap;
     gap: 80px;
-    background-color: #e5e5e5;
     padding-top: 75px;
     padding-bottom: 150px;
   }
