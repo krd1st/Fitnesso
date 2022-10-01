@@ -1,14 +1,27 @@
 .header {
-  height: 60px;
+  position: relative;
   background-color: #eef0f4;
-  & .container {
+  & &__container {
+    max-width: 1440px;
+    height: 60px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 36px;
+    padding-right: 36px;
   }
   &-logo__link {
-    margin-right: 773px;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  &-right {
+    display: none;
+    @include tablet {
+      display: flex;
+      align-items: center;
+    }
   }
   &-navigation {
     &__list {
@@ -63,7 +76,6 @@
     margin-right: 8px;
   }
   &-cart__link {
-    display: block;
     margin-left: 25px;
   }
 }

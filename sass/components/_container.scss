@@ -1,9 +1,19 @@
 .container {
-  width: 1440px;
+  // width: 1440px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-left: 36px;
   padding-right: 36px;
+  @include mobile {
+    width: 480px;
+  }
+  @include tablet {
+    width: 768px;
+  }
+  @include desktop {
+    width: 1440px;
+  }
 }
 
 .image__container {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Fitnesso</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +22,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="header__container">
         <a class="header-logo__link link" href="">
           <img
             src="./images/logo/header-logo.png"
@@ -31,34 +31,99 @@
             height="20"
           />
         </a>
-        <nav class="header-navigation">
-          <ul class="header-navigation__list list">
-            <li class="header-navigation__item">
-              <a class="header-navigation__link link" href="">About</a>
-            </li>
-            <li class="header-navigation__item">
-              <a class="header-navigation__link link" href="">Free Workout</a>
-            </li>
-            <li class="header-navigation__item">
-              <a class="header-navigation__link link" href="">Shop</a>
-            </li>
-          </ul>
-        </nav>
-        <button class="header__button pointer" type="button">
-          <svg class="header__button-icon" width="12" height="16">
-            <use href="./images/icons.svg#button-icon"></use>
+        <div class="header-right">
+          <nav class="header-navigation">
+            <ul class="header-navigation__list list">
+              <li class="header-navigation__item">
+                <a class="header-navigation__link link" href="">About</a>
+              </li>
+              <li class="header-navigation__item">
+                <a class="header-navigation__link link" href=""
+                  >Free Workouts</a
+                >
+              </li>
+              <li class="header-navigation__item">
+                <a class="header-navigation__link link" href="">Shop</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__button pointer" type="button">
+            <svg class="header__button-icon" width="12" height="16">
+              <use href="./images/icons.svg#button-icon"></use>
+            </svg>
+            BOOK A CALL
+          </button>
+          <a class="header-cart__link link" href="">
+            <svg class="header-cart__icon" width="17" height="17">
+              <use href="./images/icons.svg#icon-shopping-cart"></use>
+            </svg>
+          </a>
+        </div>
+        <button
+          type="button"
+          class="menu-switcher pointer"
+          aria-expanded="false"
+          aria-controls="menu"
+          data-menu-button
+        >
+          <svg
+            class="menu-burger"
+            width="40"
+            height="40"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use
+              class="menu-icon-burger"
+              href="./images/icons.svg#icon-menu-burger"
+            ></use>
+            <use
+              class="menu-icon-cross"
+              href="./images/icons.svg#icon-menu-closer"
+            ></use>
           </svg>
-          BOOK A CALL
         </button>
-        <a class="header-cart__link link" href="">
-          <svg class="header-cart__icon" width="17" height="17">
-            <use href="./images/icons.svg#icon-shopping-cart"></use>
-          </svg>
-        </a>
+      </div>
+      <div class="menu" id="menu" data-menu>
+        <div class="menu-container">
+          <nav class="menu-navigation">
+            <ul class="menu-navigation__list list">
+              <li class="menu-navigation__item">
+                <a href="" class="menu-navigation__link link">About</a>
+              </li>
+              <li class="menu-navigation__item">
+                <a href="" class="menu-navigation__link link">Free Workouts</a>
+              </li>
+              <li class="menu-navigation__item">
+                <a href="" class="menu-navigation__link link">Shop</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="menu-contacts">
+            <button class="menu__button pointer" type="button">
+              BOOK A CALL
+            </button>
+          </div>
+          <div class="menu-socials">
+            <ul class="menu-socials__list list">
+              <li class="menu-socials__item">
+                <a href="" class="menu-socials__link link">Instagram</a>
+              </li>
+              <li class="menu-socials__item">
+                <a href="" class="menu-socials__link link">Twitter</a>
+              </li>
+              <li class="menu-socials__item">
+                <a href="" class="menu-socials__link link">Facebook</a>
+              </li>
+              <li class="menu-socials__item">
+                <a href="" class="menu-socials__link link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <div class="hero-left">
             <h2 class="hero-left__title">Sandra Lyons</h2>
@@ -98,8 +163,8 @@
             </button>
           </div>
         </div>
-      </section>
-      <section class="clients">
+      </section> -->
+      <!-- <section class="clients">
         <div class="container">
           <ul class="clients__list list">
             <li class="clients__item">
@@ -116,8 +181,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="about">
+      </section> -->
+      <!-- <section class="about">
         <div class="container">
           <h2 class="about__title">
             The journey to a healthier body starts right now
@@ -239,8 +304,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="free-plans">
+      </section> -->
+      <!-- <section class="free-plans">
         <div class="container section">
           <h2 class="free-plans__title">
             Free home workouts and fitness plans
@@ -330,8 +395,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="premium-plans premium-plans__background">
+      </section> -->
+      <!-- <section class="premium-plans premium-plans__background">
         <div class="container section">
           <h2 class="premium-plans__title">
             Premium home workouts and fitness plans
@@ -412,13 +477,13 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="background">
+      </section> -->
+      <!-- <section class="background">
         <div class="container">
           <p class="background-text">SWEAT. GAIN. DO.</p>
         </div>
-      </section>
-      <section class="benefits">
+      </section> -->
+      <!-- <section class="benefits">
         <div class="container section">
           <div class="benefits__left">
             <p class="benefits__title">
@@ -454,8 +519,8 @@
             </picture>
           </div>
         </div>
-      </section>
-      <section class="image">
+      </section> -->
+      <!-- <section class="image">
         <div class="image__container">
           <picture>
             <source
@@ -472,8 +537,8 @@
             />
           </picture>
         </div>
-      </section>
-      <section class="tips">
+      </section> -->
+      <!-- <section class="tips">
         <div class="container section">
           <h2 class="tips__title">Read our tips and tricks</h2>
           <p class="tips__text">
@@ -540,8 +605,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="social">
+      </section> -->
+      <!-- <section class="social">
         <div class="container section">
           <div class="social-image__wrap-up">
             <ul class="social-image__list-up list">
@@ -597,10 +662,45 @@
               </li>
             </ul>
           </div>
-          <div class="social-wrap"></div>
+          <div class="social-wrap">
+            <ul class="social-wrap__list list">
+              <li class="social-wrap__item">
+                <a href="" class="social-wrap__link link">
+                  <svg class="social-wrap__icon" width="52" height="52">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                  @fitnesso
+                </a>
+              </li>
+              <li class="social-wrap__item">
+                <a href="" class="social-wrap__link link">
+                  <svg class="social-wrap__icon" width="52" height="52">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                  @fitnesso
+                </a>
+              </li>
+              <li class="social-wrap__item">
+                <a href="" class="social-wrap__link link">
+                  <svg class="social-wrap__icon" width="52" height="52">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                  Fitnesso
+                </a>
+              </li>
+              <li class="social-wrap__item">
+                <a href="" class="social-wrap__link link">
+                  <svg class="social-wrap__icon" width="52" height="52">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                  /Fitnesso
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </section>
-      <section class="footer">
+      </section> -->
+      <!-- <footer class="footer">
         <div class="container">
           <div class="footer__wrap">
             <a class="footer-logo__link link" href="">
@@ -722,7 +822,8 @@
             </li>
           </ul>
         </div>
-      </section>
+      </footer> -->
     </main>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
