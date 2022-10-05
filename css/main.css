@@ -285,12 +285,21 @@ img {
 .hero .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 80px;
-  padding-top: 75px;
-  padding-bottom: 150px;
+  gap: 40px;
+  flex-direction: column-reverse;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1440px) {
+  .hero .container {
+    flex-direction: row;
+    gap: 80px;
+    padding-top: 75px;
+    padding-bottom: 150px;
+  }
 }
 .hero-left__title {
-  width: 419px;
+  width: fit-content;
   font-family: "Permanent Marker";
   font-size: 64px;
   line-height: 1.1;
@@ -305,24 +314,53 @@ img {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #081158;
-  margin-top: 129px;
-  margin-bottom: 32px;
+}
+@media screen and (max-width: 1439px) {
+  .hero-right__subtitle {
+    width: fit-content;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-right__subtitle {
+    margin-top: 129px;
+    margin-bottom: 32px;
+  }
 }
 .hero-right__title {
   width: 552px;
+  font-size: 66px;
   font-family: "Roboto";
-  font-size: 72px;
   font-weight: 400;
   line-height: 1.1;
+  text-align: center;
   color: #081158;
   margin-bottom: 31px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (min-width: 1440px) {
+  .hero-right__title {
+    width: 552px;
+    font-size: 72px;
+    text-align: left;
+  }
 }
 .hero-right__text {
-  width: 496px;
   font-size: 20px;
   line-height: 1.8;
   color: #081158;
+  text-align: center;
   margin-bottom: 25px;
+}
+@media screen and (min-width: 1440px) {
+  .hero-right__text {
+    width: 496px;
+    text-align: left;
+  }
 }
 .hero-right__button {
   display: flex;
@@ -344,6 +382,12 @@ img {
   transition-property: background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (max-width: 1439px) {
+  .hero-right__button {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 .hero-right__button:hover, .hero-right__button:focus {
   background-color: #0c197c;
