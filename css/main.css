@@ -623,11 +623,11 @@ img {
   background-position: center;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../../images/premium-plans/premium-plans-bg-1x.jpg);
+  background-image: url(..//../images/premium-plans/premium-plans-bg-1x.jpg);
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .premium-plans__background {
-    background-image: url(../../images/premium-plans/premium-plans-bg-2x.jpg);
+    background-image: url(..//../images/premium-plans/premium-plans-bg-2x.jpg);
   }
 }
 
@@ -749,11 +749,11 @@ img {
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../../images/backgrounds/bg-desk-1-1x.jpg);
+  background-image: url(..//../images/backgrounds/bg-desk-1-1x.jpg);
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .background {
-    background-image: url(../../images/backgrounds/bg-desk-1-2x.jpg);
+    background-image: url(..//../images/backgrounds/bg-desk-1-2x.jpg);
   }
 }
 .background-text {
